@@ -2,6 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+.locale {
+  float: right;
+  margin: -0.25em 0.1em
+}
+
+
+
+
+
+
 #banner {
   background: #9c9;
   padding: 10px;
@@ -37,9 +48,34 @@
     padding: 1em 2em;
     width: 13em;
     background: #141;
+
+    form, div {
+      display: inline;
+    }
     
-    color: #bfb;
+    input {
+      font-size: small;
+    }
     
+    #cart {
+      font-size: smaller;
+      color: white;
+      
+      table {
+        border-top: 1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
+    }
+    
+    
+
+
+
+
+
+
+
     ul {
       padding: 0;
       
@@ -51,6 +87,45 @@
           font-size: small;
         }
       }
+    }
+  }
+}
+
+
+
+// p. 152 for customer information form
+.depot_form {
+  fieldset {
+    background: #efe;
+    
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+  }
+  
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+    
+    .submit {
+      margin-left: 4em;
+    }
+    
+    br {
+      display: none;
     }
   }
 }

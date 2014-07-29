@@ -11,5 +11,10 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+
+//= require jquery.ui.core
+//= require jquery.ui.effect
+//= require jquery.ui.effect-blind
+
 //= require jquery_ujs
 //= require_tree .

@@ -1,0 +1,47 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  hello: "こんにちは"
+  
+  layouts:
+    application:
+      title: "Pragmatic Bookshelf"
+      home: "ホーム"
+      questions: "質問"
+      news: "ニュース"
+      contact: "お問い合わせ"
+
+  store:
+    index:
+      title_html: "あなたの実用的なカタログ"
+      add_html: "カートに入れる"
+
+  carts:
+    cart:
+      title: "あなたのカート"
+      empty: "カートを空にする"
+      checkout: "チェックアウト"
+
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend: "あなたの詳細を入力してください"
+    form:
+      name: "名前"
+      address_html: "住所"
+      email: "E-mail"
+      pay_type: "支払い方法"
+      pay_prompt_html: "支払い方法を選択してください"
+      submit: "注文する"
+
+  thanks: "ご注文ありがとうございます"
+

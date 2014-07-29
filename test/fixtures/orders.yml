@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: KITAMURA Hideyuki
+  address: MyText
+  email: hkitam@example.org
+  pay_type: 現金
+
+two:
+  name: MyString
+  address: MyText
+  email: MyString
+  pay_type: MyString
+
+
